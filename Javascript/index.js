@@ -35,7 +35,6 @@ function isCollide(snake) {
     if(snake[0].x >= 18 || snake[0].x <=0 || snake[0].y >= 18 || snake[0].y <=0){
         return true;
     }
-        
     return false;
 }
 
@@ -97,10 +96,7 @@ function gameEngine(){
     foodElement.style.gridColumnStart = food.x;
     foodElement.classList.add('food')
     board.appendChild(foodElement);
-
-
 }
-
 
 // Main logic starts here
 musicSound.play();
@@ -145,5 +141,4 @@ window.addEventListener('keydown', e =>{
         default:
             break;
     }
-
 });
