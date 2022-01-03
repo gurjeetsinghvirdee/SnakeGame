@@ -16,9 +16,9 @@
 
 #scoreBox{
     position: absolute;
-    top: 9px;
+    top: 12px;
     right: 200px;
-    font-size: 39px;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Source Serif Pro', serif;
 }
@@ -27,16 +27,16 @@
     position: absolute;
     top: 59px;
     right: 140px;
-    font-size: 39px;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Source Serif Pro', serif;
 }
 
 #board{
     background: rgb(18, 92, 18);
-    width: 90vmin;
-    height: 92vmin;
-    border: 2px solid black;
+    width: 98vmin;
+    height: 95vmin;
+    border: 3px solid black;
     display: grid;
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(18, 1fr);
